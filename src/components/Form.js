@@ -1,6 +1,9 @@
 import React, { useState , useEffect } from 'react';
 import PersonIcon from '@mui/icons-material/Person';
 import LockIcon from '@mui/icons-material/Lock';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import '../styles/login.css';
 import {Formik , Form ,  ErrorMessage } from 'formik';
 import InputField from './InputField';
@@ -73,7 +76,7 @@ function Login() {
           </div>
           <ErrorMessage name="password" component="div" className="error-message" />
           <div className="input-fields">
-            <LockIcon className="form-icons" />
+            <CalendarTodayIcon className="form-icons" />
             <InputField
               label="age"
               type="text"
@@ -83,7 +86,7 @@ function Login() {
           </div>
           <ErrorMessage name="age" component="div" className="error-message" />
           <div className="input-fields">
-            <LockIcon className="form-icons" />
+            <PhoneIphoneIcon className="form-icons" />
             <InputField
               label="phone"
               type="text"
@@ -93,7 +96,7 @@ function Login() {
           </div>
           <ErrorMessage name="phone" component="div" className="error-message" />
           <div className="input-fields">
-            <LockIcon className="form-icons" />
+            <MailOutlineIcon className="form-icons" />
             <InputField
               label="email"
               type="text"
