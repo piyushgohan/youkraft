@@ -64,12 +64,13 @@ body{
 .form-table{
     position:absolute;
     top: 20%;
-    right: 10%;
+    right: 5%;
     padding : 20px;
     display: flex;
     background-color: #fff;
     border-radius: 4px;
     box-shadow : 2px 2px 2px gray;
+    text-align: center;
 }
 
 .col-container{
